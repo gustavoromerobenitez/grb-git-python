@@ -9,9 +9,9 @@ import os.path
 import re
 
 # Location of the Github Service account in GCP Storage Buckets
-CREDENTIALS_BUCKET_NAME = "poc-infra-secrets"
-USER_SECRET_NAME = "github_ro_user.secret"
-TOKEN_SECRET_NAME = "github_ro_token.secret"
+CREDENTIALS_BUCKET_NAME = "secrets"
+USER_SECRET_NAME = "github_user.secret"
+TOKEN_SECRET_NAME = "github_token.secret"
 CREDENTIALS_URL = "gs://{0}/{1}"
 
 # Default List of TEAM Reviewers to be configured for Pull Requests
